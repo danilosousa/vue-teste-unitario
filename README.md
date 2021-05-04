@@ -24,3 +24,9 @@ Iniciando a api fake de leilões;
 json-server --watch db.json
 ```
 
+rodando teste unitario;
+
+```
+npm run test:unit
+```
+
