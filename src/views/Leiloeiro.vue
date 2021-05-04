@@ -5,7 +5,7 @@
       <div class="col-8">
         <Leilao :leilao="leilao" />
         <Lance ref="novoLance" :lanceMinimo="valorMinimoDoLance" v-on:novo-lance="onNovoLance"/>
-        <div class="row mb-4 lances" v-if="existemLances">
+        <div class="row mb-4 lances teste" v-if="existemLances">
           <div class="col-6">
             <div class="menor-lance shadow p-3 bg-white rounded">Menor lance: <strong>R$ {{ menorLance }}</strong></div>
           </div>
